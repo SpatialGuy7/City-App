@@ -10,7 +10,7 @@ library(sf)
 cities1 <- st_read("https://storage.googleapis.com/bucket-1-geo-arrow/Cities.geojson")
 
 # Define UI for application
-ui <- fluidPage(title="City Explorer", theme = shinytheme("darkly"),
+ui <- fluidPage(title="City Explorer", theme = shinytheme("superhero"),
     navbarPage(title = "Welcome to Dan's City Explorer App!",
                icon("map"),
                tabPanel("Cities around the world",
